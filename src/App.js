@@ -2,11 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import TodoList from './TodoList';
 import Quiz from './components/Quiz';
+import CoinFlipper from './CoinFlipper';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Coin Flipping app</h1>
+        <CoinFlipper />
         <h1>Quiz Application</h1>
         <Quiz />
         <h1>Todo list example</h1>
