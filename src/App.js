@@ -5,11 +5,16 @@ import Quiz from './components/Quiz';
 import CoinFlipper from './CoinFlipper';
 import Colorbox from './components/Colorbox';
 
+import DiceRoller from './components/DiceRoller';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Dice Rolling app</h1>
+        <DiceRoller />
+
         <h1>Color Box</h1>
         <Colorbox />
         <h1>Coin Flipping app</h1>

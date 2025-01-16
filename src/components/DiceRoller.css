@@ -1,0 +1,68 @@
+/* FILEPATH: d:/Practice/React/reactGeek/react-geeki/src/components/DiceRoller.css */
+
+.DiceRoller {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin-right: 10px;
+}
+
+.controls input {
+  width: 50px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.die {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
