@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
@@ -30,8 +30,15 @@
   margin-top: 20px;
 }
 
+.App h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
 h1 {
   text-align: center;
+
 }
 
 input {
