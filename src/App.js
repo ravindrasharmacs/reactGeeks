@@ -6,12 +6,16 @@ import CoinFlipper from './CoinFlipper';
 import Colorbox from './components/Colorbox';
 
 import DiceRoller from './components/DiceRoller';
+import GuessTheNumber from './components/GuessTheNumber';
+
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Guess the number game app</h1>
+        <GuessTheNumber />
         <h1>Dice Rolling app</h1>
         <DiceRoller />
 

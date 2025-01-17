@@ -1,0 +1,50 @@
+/* FILEPATH: d:/Practice/React/reactGeek/react-geeki/src/components/GuessTheNumber.css */
+
+.GuessTheNumber {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button[type="button"] {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
