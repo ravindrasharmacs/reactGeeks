@@ -8,12 +8,23 @@ import Colorbox from './components/Colorbox';
 import DiceRoller from './components/DiceRoller';
 import GuessTheNumber from './components/GuessTheNumber';
 
+import ThemedButton from './components/ThemedButton';
+import { ThemeContext } from './context/ThemeContext';
+import { ThemeProvider } from './context/ThemeContext';
+
+
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <ThemeProvider>
+      <div style={{ textAlign: 'center', padding: '20px' }}>
+        <h1>useContext Example</h1>
+        <ThemedButton />
+      </div>
+    </ThemeProvider>
         <h1>Guess the number game app</h1>
         <GuessTheNumber />
         <h1>Dice Rolling app</h1>
